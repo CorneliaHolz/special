@@ -25,7 +25,7 @@ def drink(drinkname):
     
     
     
-    return f"Steps:{instructions}<br/>Served in a {glass}"
+    return f'<h1 style="color:pink">Steps:{instructions}<br/>Served in a {glass}</h1>'
 
 
 
