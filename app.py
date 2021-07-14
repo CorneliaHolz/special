@@ -25,7 +25,7 @@ def drink(drinkname):
     
     
     
-    return f"Steps:{instructions}\nServed in {glass}"
+    return f"Steps:{instructions}<br/>Served in a {glass}"
 
 
 
