@@ -15,3 +15,8 @@ def hype(name):
 @app.route('/thanks/<name1>/<name2>')
 def thanks(name1,name2):
     return f"{name1} thanks {name2}"
+
+@app.route('/drink/<drinkname>')
+def drink(drinkname):
+    response = rq.get(f"https://www.thecocktaildb.com/api/json/v1/1/search.php?s={drinkname}").json()
+    return response 
