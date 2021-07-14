@@ -9,4 +9,4 @@ def index():
 
 @app.route('/hype/<name>')
 def hype(name):
-    return f"{name} is the best"
+    return f"{name} ist die Beste"
