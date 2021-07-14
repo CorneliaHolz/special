@@ -19,4 +19,4 @@ def thanks(name1,name2):
 @app.route('/drink/<drinkname>')
 def drink(drinkname):
     response = rq.get(f"https://www.thecocktaildb.com/api/json/v1/1/search.php?s={drinkname}").json()
-    return response 
+    return response["drinks"][0]["strInstructions"] 
