@@ -10,3 +10,8 @@ def index():
 @app.route('/hype/<name>')
 def hype(name):
     return f"{name} ist die Beste"
+
+
+@app.route('/thanks/<name1>/<name2>')
+def thanks(name1,name2):
+    return f"{name1} thanks {name2}"
