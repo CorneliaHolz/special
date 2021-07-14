@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "<h1 style='color:pink'>blah blah blah</h1>"
+    return '<h1 style="color:pink">blah blah blah</h1><img src="https://17xxhp2l9bsg2qr0nd29eere-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/mexico-df-6.jpg" alt="Mexico City Private Tour with official tour guide and private driver" jsname="HiaYvf" jsaction="load:XAeZkd;" class="n3VNCb" data-noaft="1" style="width: 450px; height: 320.25px; margin: 0px;">'
